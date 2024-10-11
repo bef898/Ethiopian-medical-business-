@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: data_hub
+    description: "Raw scraped messages data"
+    schema: public
+    tables:
+      - name: cleaned_data_table
+        
+
+models:
+  - name: data_transformed
+    description: "Messages cleaned by removing empty entries and duplicates"
+    columns:
+      - name: id
+        description: "Unique identifier for each message"
+      - name: sender
+        description: "The sender of the message"
+      - name: message_time
+        description: "Timestamp of the message"
+      - name: text
+        description: "Message text content"
+      - name: image
+        description: "Image attached to the message, if any"
+      - name: document
+        description: "Document attached to the message, if any"

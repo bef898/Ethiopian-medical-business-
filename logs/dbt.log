@@ -1,0 +1,129 @@
+[0m08:30:01.539898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275BCAE77D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275BCA93310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275BCAEE850>]}
+
+
+============================== 08:30:01.544797 | 7c2310e1-0eb9-4c6a-9bca-238fe9526978 ==============================
+[0m08:30:01.544797 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m08:30:01.545797 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\befekadum\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m08:30:25.562980 [debug] [MainThread]: Starter project path: C:\Users\befekadum\Documents\10x acadamy\WEEK7\Ethiopian-medical-business-\myvenv\Lib\site-packages\dbt\include\starter_project
+[0m08:30:25.590840 [info ] [MainThread]: 
+Your new dbt project "Ethiopian_medical_business" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:30:25.591840 [info ] [MainThread]: Setting up your profile.
+[0m10:25:57.686221 [info ] [MainThread]: Profile Ethiopian_medical_business written to C:\Users\befekadum\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:25:57.688231 [debug] [MainThread]: Command `dbt init` succeeded at 10:25:57.688231 after 6956.10 seconds
+[0m10:25:57.689225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275BC6B7990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275B761EAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275B761DF50>]}
+[0m10:25:57.690220 [debug] [MainThread]: Flushing usage events
+[0m10:25:58.664866 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:16:24.179984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0DEA92FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0DEAEEE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0DEAEEF10>]}
+
+
+============================== 11:16:24.183996 | d9cab65a-4909-4253-b6e0-bd32bae57e30 ==============================
+[0m11:16:24.183996 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:16:24.184984 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\befekadum\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:16:24.184984 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\befekadum\Documents\10x acadamy\WEEK7\Ethiopian-medical-business-\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:16:24.186985 [debug] [MainThread]: Command `dbt run` failed at 11:16:24.186985 after 0.07 seconds
+[0m11:16:24.186985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0DE8B7990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0D981EA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0DEAEEB90>]}
+[0m11:16:24.186985 [debug] [MainThread]: Flushing usage events
+[0m11:16:25.189474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:25:55.730960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED61BC69D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED65BE3A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED65BEAB90>]}
+
+
+============================== 11:25:55.733960 | 5b6f6661-c1bd-4b3f-b9cd-f25bbc329c8c ==============================
+[0m11:25:55.733960 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:25:55.734602 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\befekadum\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:25:55.734602 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\befekadum\Documents\10x acadamy\WEEK7\Ethiopian-medical-business-\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:25:55.735812 [debug] [MainThread]: Command `dbt run` failed at 11:25:55.735812 after 0.08 seconds
+[0m11:25:55.736819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED65BE3A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED658A8750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED6066DF50>]}
+[0m11:25:55.736819 [debug] [MainThread]: Flushing usage events
+[0m11:25:56.729209 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:32:52.327014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F959392310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9582CCC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9593E7C50>]}
+
+
+============================== 11:32:52.329021 | 3e61dd89-7de2-49d2-bba0-7a4d390ad6f2 ==============================
+[0m11:32:52.329021 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:32:52.330021 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\befekadum\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:32:52.355146 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:32:52.355146 [info ] [MainThread]: python version: 3.11.9
+[0m11:32:52.356141 [info ] [MainThread]: python path: C:\Users\befekadum\Documents\10x acadamy\WEEK7\Ethiopian-medical-business-\myvenv\Scripts\python.exe
+[0m11:32:52.356141 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m11:32:52.396130 [info ] [MainThread]: Using profiles dir at C:\Users\befekadum\.dbt
+[0m11:32:52.396796 [info ] [MainThread]: Using profiles.yml file at C:\Users\befekadum\.dbt\profiles.yml
+[0m11:32:52.397804 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\befekadum\Documents\10x acadamy\WEEK7\Ethiopian-medical-business-\dbt_project.yml
+[0m11:32:52.398802 [info ] [MainThread]: adapter type: postgres
+[0m11:32:52.399059 [info ] [MainThread]: adapter version: 1.8.2
+[0m11:32:52.399059 [info ] [MainThread]: Configuration:
+[0m11:32:52.400066 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:32:52.400066 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:32:52.400066 [info ] [MainThread]: Required dependencies:
+[0m11:32:52.401067 [debug] [MainThread]: Executing "git --help"
+[0m11:32:52.438955 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:32:52.438955 [debug] [MainThread]: STDERR: "b''"
+[0m11:32:52.439957 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:32:52.440955 [info ] [MainThread]: Connection:
+[0m11:32:52.440955 [info ] [MainThread]:   host: localhost
+[0m11:32:52.441956 [info ] [MainThread]:   port: 5432
+[0m11:32:52.441956 [info ] [MainThread]:   user: postgres
+[0m11:32:52.442967 [info ] [MainThread]:   database: data_hub
+[0m11:32:52.442967 [info ] [MainThread]:   schema: public
+[0m11:32:52.443954 [info ] [MainThread]:   connect_timeout: 10
+[0m11:32:52.443954 [info ] [MainThread]:   role: None
+[0m11:32:52.444954 [info ] [MainThread]:   search_path: None
+[0m11:32:52.444954 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:32:52.445959 [info ] [MainThread]:   sslmode: None
+[0m11:32:52.445959 [info ] [MainThread]:   sslcert: None
+[0m11:32:52.446965 [info ] [MainThread]:   sslkey: None
+[0m11:32:52.446965 [info ] [MainThread]:   sslrootcert: None
+[0m11:32:52.447965 [info ] [MainThread]:   application_name: dbt
+[0m11:32:52.447965 [info ] [MainThread]:   retries: 1
+[0m11:32:52.447965 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m11:32:52.448964 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:32:53.519728 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:32:53.520728 [debug] [MainThread]: On debug: select 1 as id
+[0m11:32:53.520728 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:32:53.521728 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m11:32:53.521728 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m11:32:53.521728 [debug] [MainThread]: On debug: No close available on handle
+[0m11:32:53.521728 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:32:53.522729 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:32:53.523729 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\befekadum\Documents\10x acadamy\WEEK7\Ethiopian-medical-business-\dbt_project.yml> not found
+
+[0m11:32:53.524727 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  invalid dsn: missing "=" after "S�" in connection info string
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:32:53.527875 [debug] [MainThread]: Command `dbt debug` failed at 11:32:53.527875 after 1.26 seconds
+[0m11:32:53.527875 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:32:53.527875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9591B7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F959390A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F953E7EC50>]}
+[0m11:32:53.528874 [debug] [MainThread]: Flushing usage events
+[0m11:32:54.398077 [debug] [MainThread]: An error was encountered while trying to flush usage events
